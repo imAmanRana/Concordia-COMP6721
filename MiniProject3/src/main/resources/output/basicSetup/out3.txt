@@ -1,0 +1,43 @@
+I'm OK.
+UNIGRAM MODEL:
+
+UNIGRAM: i
+FRENCH: P(i) = 0.073248 ==> log prob of sentence so far: -1.135206
+ENGLISH: P(i) = 0.068782 ==> log prob of sentence so far: -1.162525
+OTHER: P(i) = 0.056115 ==> log prob of sentence so far: -1.250924
+
+UNIGRAM: m
+FRENCH: P(m) = 0.030694 ==> log prob of sentence so far: -2.648155
+ENGLISH: P(m) = 0.024484 ==> log prob of sentence so far: -2.773636
+OTHER: P(m) = 0.027869 ==> log prob of sentence so far: -2.805798
+
+UNIGRAM: o
+FRENCH: P(o) = 0.053169 ==> log prob of sentence so far: -3.922498
+ENGLISH: P(o) = 0.072814 ==> log prob of sentence so far: -3.911420
+OTHER: P(o) = 0.099322 ==> log prob of sentence so far: -3.808751
+
+UNIGRAM: k
+FRENCH: P(k) = 0.000291 ==> log prob of sentence so far: -7.459093
+ENGLISH: P(k) = 0.008459 ==> log prob of sentence so far: -5.984117
+OTHER: P(k) = 0.000150 ==> log prob of sentence so far: -7.631890
+
+According to the unigram model, the sentence is in English
+----------------
+BIGRAM MODEL:
+
+BIGRAM: im
+FRENCH: P(m|i) = 0.028882 ==> log prob of sentence so far: -1.539376
+ENGLISH: P(m|i) = 0.044909 ==> log prob of sentence so far: -1.347662
+OTHER: P(m|i) = 0.040206 ==> log prob of sentence so far: -1.395706
+
+BIGRAM: mo
+FRENCH: P(o|m) = 0.153288 ==> log prob of sentence so far: -2.353868
+ENGLISH: P(o|m) = 0.136577 ==> log prob of sentence so far: -2.212286
+OTHER: P(o|m) = 0.192888 ==> log prob of sentence so far: -2.110401
+
+BIGRAM: ok
+FRENCH: P(k|o) = 0.000393 ==> log prob of sentence so far: -5.759174
+ENGLISH: P(k|o) = 0.014174 ==> log prob of sentence so far: -4.060791
+OTHER: P(k|o) = 0.000203 ==> log prob of sentence so far: -5.803780
+
+According to the bigram model, the sentence is in English

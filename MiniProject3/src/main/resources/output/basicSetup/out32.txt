@@ -1,0 +1,73 @@
+Je t'aime
+UNIGRAM MODEL:
+
+UNIGRAM: j
+FRENCH: P(j) = 0.006172 ==> log prob of sentence so far: -2.209578
+ENGLISH: P(j) = 0.001135 ==> log prob of sentence so far: -2.944833
+OTHER: P(j) = 0.006306 ==> log prob of sentence so far: -2.200267
+
+UNIGRAM: e
+FRENCH: P(e) = 0.171015 ==> log prob of sentence so far: -2.976543
+ENGLISH: P(e) = 0.123007 ==> log prob of sentence so far: -3.854905
+OTHER: P(e) = 0.139566 ==> log prob of sentence so far: -3.055486
+
+UNIGRAM: t
+FRENCH: P(t) = 0.068239 ==> log prob of sentence so far: -4.142510
+ENGLISH: P(t) = 0.092422 ==> log prob of sentence so far: -4.889128
+OTHER: P(t) = 0.038848 ==> log prob of sentence so far: -4.466119
+
+UNIGRAM: a
+FRENCH: P(a) = 0.083878 ==> log prob of sentence so far: -5.218863
+ENGLISH: P(a) = 0.081886 ==> log prob of sentence so far: -5.975917
+OTHER: P(a) = 0.120711 ==> log prob of sentence so far: -5.384371
+
+UNIGRAM: i
+FRENCH: P(i) = 0.073248 ==> log prob of sentence so far: -6.354070
+ENGLISH: P(i) = 0.068782 ==> log prob of sentence so far: -7.138442
+OTHER: P(i) = 0.056115 ==> log prob of sentence so far: -6.635295
+
+UNIGRAM: m
+FRENCH: P(m) = 0.030694 ==> log prob of sentence so far: -7.867018
+ENGLISH: P(m) = 0.024484 ==> log prob of sentence so far: -8.749553
+OTHER: P(m) = 0.027869 ==> log prob of sentence so far: -8.190169
+
+UNIGRAM: e
+FRENCH: P(e) = 0.171015 ==> log prob of sentence so far: -8.633984
+ENGLISH: P(e) = 0.123007 ==> log prob of sentence so far: -9.659624
+OTHER: P(e) = 0.139566 ==> log prob of sentence so far: -9.045388
+
+According to the unigram model, the sentence is in French
+----------------
+BIGRAM MODEL:
+
+BIGRAM: je
+FRENCH: P(e|j) = 0.646353 ==> log prob of sentence so far: -0.189530
+ENGLISH: P(e|j) = 0.220455 ==> log prob of sentence so far: -0.656681
+OTHER: P(e|j) = 0.172104 ==> log prob of sentence so far: -0.764209
+
+BIGRAM: et
+FRENCH: P(t|e) = 0.082323 ==> log prob of sentence so far: -1.274008
+ENGLISH: P(t|e) = 0.067171 ==> log prob of sentence so far: -1.829502
+OTHER: P(t|e) = 0.025835 ==> log prob of sentence so far: -2.352008
+
+BIGRAM: ta
+FRENCH: P(a|t) = 0.130725 ==> log prob of sentence so far: -2.157650
+ENGLISH: P(a|t) = 0.068004 ==> log prob of sentence so far: -2.996965
+OTHER: P(a|t) = 0.232617 ==> log prob of sentence so far: -2.985367
+
+BIGRAM: ai
+FRENCH: P(i|a) = 0.200944 ==> log prob of sentence so far: -2.854575
+ENGLISH: P(i|a) = 0.044613 ==> log prob of sentence so far: -4.347502
+OTHER: P(i|a) = 0.008278 ==> log prob of sentence so far: -5.067448
+
+BIGRAM: im
+FRENCH: P(m|i) = 0.028882 ==> log prob of sentence so far: -4.393951
+ENGLISH: P(m|i) = 0.044909 ==> log prob of sentence so far: -5.695164
+OTHER: P(m|i) = 0.040206 ==> log prob of sentence so far: -6.463155
+
+BIGRAM: me
+FRENCH: P(e|m) = 0.370855 ==> log prob of sentence so far: -4.824747
+ENGLISH: P(e|m) = 0.250330 ==> log prob of sentence so far: -6.296651
+OTHER: P(e|m) = 0.225532 ==> log prob of sentence so far: -7.109947
+
+According to the bigram model, the sentence is in French
